@@ -104,7 +104,7 @@ let switches = document.getElementsByClassName("main-switch");
 let style = localStorage.getItem("style");
 
 if (style == null) {
-    setTheme("default");
+    setTheme("metalic");
 } else {
     setTheme(style);
 }
